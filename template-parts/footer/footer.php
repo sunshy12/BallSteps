@@ -1,3 +1,4 @@
+
 <?php do_action('flatsome_before_footer'); ?>
 
 <!-- FOOTER 1 -->
@@ -18,6 +19,11 @@
 		</div><!-- end row -->
 </div><!-- end footer 2 -->
 <?php endif; ?>
+
+<?PHP 
+// Get Header Bottom template. Located in flatsome/template-parts/header/header-bottom-*.php  
+get_template_part('template-parts/header/header', 'bottom'); 
+?>
 
 <?php do_action('flatsome_after_footer'); ?>
 

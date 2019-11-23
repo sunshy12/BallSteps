@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <!--[if IE 9 ]> <html <?php language_attributes(); ?> class="ie9 <?php flatsome_html_classes(); ?>"> <![endif]-->
 <!--[if IE 8 ]> <html <?php language_attributes(); ?> class="ie8 <?php flatsome_html_classes(); ?>"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="<?php flatsome_html_classes(); ?>"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="<?php flatsome_html_classes(); ?>"style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bg.jpg);background-attachment: fixed;background-position: top center;width: 100%;height: 100%;min-height: 100%;" role="main"> <!--<![endif]-->
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
 
 	<?php wp_head(); ?>
 </head>
@@ -16,7 +17,7 @@
 
 <a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'flatsome' ); ?></a>
 
-<div id="wrapper">
+<div>
 
 	<?php do_action( 'flatsome_before_header' ); ?>
 
@@ -28,4 +29,4 @@
 
 	<?php do_action( 'flatsome_after_header' ); ?>
 
-	<main id="main" class="<?php flatsome_main_classes(); ?>">
+	<main  class="<?php flatsome_main_classes(); ?>">

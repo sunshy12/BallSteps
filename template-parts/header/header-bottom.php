@@ -1,6 +1,6 @@
 <?php if(flatsome_has_bottom_bar()['large_or_mobile']) {
 ?>
-<div id="wide-nav" class="header-bottom wide-nav <?php header_inner_class('bottom'); ?>">
+<div id="wide-nav" class="header-bottom wide-nav <?php header_inner_class('bottom'); ?>"style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bg-manu.jpg);">
     <div class="flex-row container">
 
             <?php if(get_theme_mod('header_elements_bottom_left') || get_theme_mod('header_elements_bottom_right')){ ?>

@@ -16,7 +16,7 @@ if(flatsome_option('pages_template') != 'default') {
 
 get_header();
 do_action( 'flatsome_before_page' ); ?>
-<div id="content" class="content-area page-wrapper"style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bg.jpg);background-attachment: fixed;background-position: top center;width: 100%;height: 100%;min-height: 100%;" role="main">
+<div id="content" class="content-area page-wrapper">
 	<div class="row row-main">
 	
 		<div class="large-12 col">

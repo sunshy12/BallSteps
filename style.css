@@ -15,3 +15,18 @@ License URI: http://themeforest.net/licenses
 All custom CSS should be added to Flatsome > Advanced > Custom CSS,
 or in the style.css of a Child Theme.
 ***************/
+.nav-spacing-small>li {
+    margin: 0 0px;
+    border-right: 1px solid #007949;
+    border-left: 1px solid #3cfab0;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.navbar-nav>li:first-child>a {
+    border-left: none;
+}
+.menu-item {
+    font-family: 'Kanit',sans-serif;
+    font-size: 1.7rem;
+}
